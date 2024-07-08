@@ -22,8 +22,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://52.4.6.171:9000/</sonar.host.url> 
-		<sonar.login>c8a02230642b4c13c24763fd3697b038b78616de</sonar.login>
+		<sonar.host.url>http://3.25.52.221:9000/projects/</sonar.host.url> 
+		<sonar.login>f0fd391a3d6180e93f715897e1e3f68d655bdd76</sonar.login>
 		<!-- <sonar.password>admin</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -82,27 +82,27 @@
 			<version>${spring.version}</version>
 		</dependency>
 		
-		<!-- provided dependencies -->
+		<!-- provided dependencies 
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
-		</dependency>	
+		</dependency>	-->
 	</dependencies>	
 
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://52.4.6.171:8089/landmark/repository/tesla-be-releases/</url>
+	      <name>Hermann-tesla-project-for-tesla-web-application-Release</name>
+	      <url>http://52.63.99.251:8081/repository/Hermann-tesla-project-for-tesla-web-application-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.4.6.171:8089/landmark/repository/tesla-be-snapshots/</url>
+	      <name>Hermann-tesla-project-for-tesla-web-application-Sanpshot </name>
+	      <url>http://52.63.99.251:8081/repository/Hermann-tesla-project-for-tesla-web-application-Sanpshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
